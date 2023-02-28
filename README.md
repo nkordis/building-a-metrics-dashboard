@@ -29,7 +29,8 @@ Expose Grafana to the internet and then setup Prometheus as a data source. The f
 ![Grafana home page](answer-img/grafana-loggedin.PNG)
 
 ## Create a Basic Dashboard
-*TODO:* Create a dashboard in Grafana that shows Prometheus as a source. Take a screenshot and include it here.
+Create a dashboard in Grafana that shows Prometheus as a source. 
+![Grafana Main Dashboard](answer-img/grafana-main-dashboard.PNG)
 
 ## Describe SLO/SLI
 *TODO:* Describe, in your own words, what the SLIs are, based on an SLO of *monthly uptime* and *request response time*.

@@ -1,4 +1,5 @@
 apiVersion: jaegertracing.io/v1
 kind: Jaeger
 metadata:
- name: app-traces
+  name: app-traces
+  namespace: observability

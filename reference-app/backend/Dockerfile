@@ -9,6 +9,10 @@ COPY . ./
 
 ARG PROJECT_ID
 ENV PROJECT_ID ${PROJECT_ID}
+ENV PROMETHEUS_MULTIPROC_DIR /tmp/prometheus-multiproc
+
+RUN mkdir -p $PROMETHEUS_MULTIPROC_DIR && chown -R nobody:nogroup $PROMETHEUS_MULTIPROC_DIR && chmod -R 777 $PROMETHEUS_MULTIPROC_DIR
+
 
 
 # Install production dependencies.

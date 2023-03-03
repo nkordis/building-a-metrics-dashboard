@@ -9,6 +9,7 @@ from jaeger_client import Config
 from jaeger_client.metrics.prometheus import PrometheusMetricsFactory
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry.instrumentation.requests import RequestsInstrumentor
+from opentelemetry.instrumentation.wsgi import collect_request_attributes
 from prometheus_flask_exporter import PrometheusMetrics
 
 
